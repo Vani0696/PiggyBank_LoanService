@@ -1,4 +1,6 @@
-package com.vani.loanService.entity;
+package com.vani.loans.entity;
+
+import java.sql.Date;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -33,5 +35,7 @@ public class Loan {
     
     @Column(nullable = false)
     private String status;
+    
+	private Date deleted_at;
   
 }

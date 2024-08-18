@@ -1,4 +1,4 @@
-package com.vani.loanService;
+package com.vani.loans;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
